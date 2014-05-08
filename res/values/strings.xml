@@ -15,5 +15,15 @@
 	<string name="updateTips">提醒：版本有更新，请点击菜单键选择更新</string>
 	<string name="logTips">更新日志：</string>
 	<string name="tdyb">查看填单样本影像件</string>
+	<string name="yc">犹豫期期内撤单</string>
+	<string name="tb">退保</string>
+	<string name="zyjk">质押借款</string>
+	<string name="zyhk">质押还款</string>
+	<string name="jsbe">减少保额</string>
+	<string name="bdbf">保单补发（客户申请）</string>
+	<string name="scjlq">生存金领取</string>
+	<string name="jfxxbg">缴费信息变更</string>
+	<string name="tbrbg">投保人变更</string>
+	<string name="syrbg">受益人变更</string>
 
 </resources>

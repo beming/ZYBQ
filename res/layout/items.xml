@@ -17,12 +17,12 @@
                android:id="@+id/pImg">    
          </ImageView>
          <TextView
-	        android:id="@+id/ProductId"
+	        android:id="@+id/ItemId"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:visibility="invisible" />
          <TextView
-	        android:id="@+id/ProductName"
+	        android:id="@+id/ItemName"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:textAppearance="?android:attr/textAppearanceMedium" />

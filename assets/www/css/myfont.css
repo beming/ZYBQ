@@ -1,0 +1,12 @@
+@charset "utf-8";
+.my {
+	color: #030;
+}
+.myred {
+	color: #F00;
+}
+.myleft {
+	text-align: left;
+}.mycenter {
+	text-align: center;
+}

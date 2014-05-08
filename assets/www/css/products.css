@@ -1,0 +1,242 @@
+@charset "utf-8";
+/* CSS Document for zybx products*/
+#cover img {
+	height:100%;
+	width:100%;	
+	margin:auto;
+}
+.headerbuttons{
+	/* margin:auto; */
+	margin-left:.0.5em;
+}
+.header{
+	overflow:hidden;
+	height:2.5em;	
+}
+.headertext{
+	font-size:18px;
+	text-align:center;
+	width:100%;
+}
+.footer{ 
+	/*position:fixed;*/
+	position:absolute;
+  	bottom:0;
+	width:100%;
+	text-align:center;	
+	height:1.8em;
+}
+.footertext{
+	line-height:1.2em;
+	font-size:0.8em;
+}
+.hotproducts{
+	margin:auto;
+	text-align:center;
+}
+.hotproducts  img{
+	padding-top:1em;
+}
+.hotproducts  a{
+	text-decoration:none;
+}
+.customerinfo{
+	font-size:1em;
+}
+.divage{
+	height:2em;
+}
+#age{
+	font-size:1.4em;
+}
+#age_f1{
+	font-size:1.4em;
+}
+#age_f3{
+	font-size:1.4em;
+}
+#age_m2{
+	font-size:1.4em;
+}
+#age_n_a{
+	font-size:1.4em;
+}
+#age_bbb{
+	font-size:1.4em;
+}
+.customertext{
+	font-size:1.2em;
+
+	margin-top:0.2em;
+	font-weight:bold;
+}
+.infoinput{text-indent:1em;}
+.smallinfoinput{
+	width:16em;
+	margin-left:1em;
+	font-size:1.6em;
+}
+#premium{
+	font-size:1.6em;
+}
+.premiumalert{
+	font:"黑体";
+	font-size:14px;
+	color:red;
+	display:none;
+}
+.premiumalert_1{
+	font:"黑体";
+	font-size:14px;
+	color:red;
+	display:none;
+}
+.premiumalert{
+	font:"黑体";
+	font-size:14px;
+	color:red;
+	display:none;
+}
+.premiumalert{
+	font:"黑体";
+	font-size:14px;
+	color:red;
+	display:none;
+}
+.echo_bbb_a{
+	display:none;
+}
+.echo_bbb_a_below{
+	display:none;
+}
+.echo_bbb_b_below{
+	display:none;
+}
+.echo_bbb_b_dun{
+	display:none;
+}
+.echo_bbb_a_dun{
+	display:none;
+}
+.echo_bbb_a_below_dun{
+	display:none;
+}
+.echo_bbb_b_below_dun{
+	display:none;
+}
+#oneblankdiv{
+	height:4em;
+}
+.getguaranteediv{
+	width:100%;
+}
+#getguarantee{
+	width:5em;
+	font-size:3em;
+	margin:auto;
+}
+#getguarantee_fu{
+	width:5em;
+	font-size:3em;
+	margin:auto;
+}
+#getguarantee_fu3{
+	width:5em;
+	font-size:3em;
+	margin:auto;
+}
+#getguarantee_mian2{
+	width:5em;
+	font-size:3em;
+	margin:auto;
+}
+#getguarantee_n_a{
+	width:5em;
+	font-size:3em;
+	margin:auto;
+}
+#getguarantee_bbb{
+	width:5em;
+	font-size:3em;
+	margin:auto;
+}
+.title{
+	color:red;
+	font:"黑体";
+	font-weight:bold;
+	padding-top:0.3em;
+}
+.title2{
+	font-weight:bold;
+	padding-top:0.5em;
+}
+.coveragetext{
+	text-indent:2em;
+	line-height:1.3em;
+}
+.coverage{
+	color:red;
+}
+.alert{
+	color:red;
+	text-indent:1em;
+}
+.alert_bbb{
+	color:red;
+	text-indent:1em;
+}
+.info{
+	font-size:1.2em;
+}
+.tablehead{
+	border-style: solid; 
+	border-width: 0.1em;
+	border-color:#003300;
+	height:1.8em;
+	line-height:1.7em;
+	text-align:center;
+	color:white;
+	font-weight:bold;
+	font-size:1em;
+	background-color:#CC66CC;
+}
+.table{
+	border-style: solid; 
+	border-width: 0.1em;
+	border-color:#000066;
+	height:3.2em;
+	/* line-height:2.0em; */
+	text-align:center;
+	font-size:0.8em;
+}
+.table_a{
+	border-style: solid; 
+	border-width: 0.1em;
+	border-color:#000066;
+	height:2.2em;
+	/* line-height:2.0em; */
+	text-align:center;
+	font-size:0.8em;
+}
+.tablecontent{
+	padding-top:0.5em;
+}
+.tablelastrow{
+	border-style: solid; 
+	border-width: 0.1em;
+	border-color:#003300;
+	height:2em;
+	line-height:2em;
+	text-align:center;
+	font-size:0.8em;
+}
+.parameter{
+	color::#003300;
+	font-weight:bold;
+}
+.prn{
+	width:3em;
+	font-size:3em;
+	margin:auto;
+}
+
