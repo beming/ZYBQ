@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:autoLink="email|phone|web" >
+
+    <TableLayout    
+         android:layout_width="fill_parent"    
+         android:layout_height="wrap_content" > 
+         <TableRow
+             android:gravity="center"> 
+         <ImageView    
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/pImg">    
+         </ImageView>
+         <TextView
+	        android:id="@+id/ProductId"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:visibility="invisible" />
+         <TextView
+	        android:id="@+id/ProductName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+         </TableRow> 
+	</TableLayout>
+    
+    <Button
+        android:id="@+id/btnTDYB"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tdyb"
+        android:visibility="gone"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <WebView  
+	    android:id="@+id/show"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" />
+    
+</LinearLayout>

@@ -39,7 +39,7 @@ public class SubActivity extends FragmentActivity {
 	private String[] mTabTitles;
 	ArrayList<View> pagesArrayList;// 添加listview 然后传给MyPagerAdapter 充当媒介
 	ListView listView;
-	private String productPosi;
+	private String itemPosi;
 	private UpdateManager mUpdateManager;
 	
 	@Override
@@ -50,12 +50,12 @@ public class SubActivity extends FragmentActivity {
 
 		Bundle bundle = new Bundle();
         bundle = this.getIntent().getExtras();
-        productPosi = bundle.getString("productPosi");
+        itemPosi = bundle.getString("itemPosi");
             
-		//Log.v("------get the click posi:", productPosi);
+		Log.v("------get the click posi:", itemPosi);
 
 		// 从资源文件在获取Tab的title
-		mTabTitles = getResources().getStringArray(R.array.about_title);
+		mTabTitles = getResources().getStringArray(R.array.sub_title);
 		// ViewPager的adapter
 		final FragmentPagerAdapter adapter = new TabPageIndicatorAdapter(getSupportFragmentManager());
 		ViewPager pager = (ViewPager) findViewById(R.id.aboutpager);
@@ -104,7 +104,7 @@ public class SubActivity extends FragmentActivity {
 			Fragment fragment = new SubFragment();
 			Bundle args = new Bundle();
 			args.putString("arg", mTabTitles[position]);
-			args.putString("productPosi", productPosi);
+			args.putString("itemPosi", itemPosi);
 			fragment.setArguments(args);
 			
 			return fragment;

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="menu_settings">中邮保险广东分公司\n 关于</string>
+    <string name="menu1">\u0020\u0020关于©Copyright \u0020\u0020中邮保险广东分公司</string>
+    <string name="menu2">更  新</string>
     <string name="app_name">中邮保险保全工具</string>
     <string name="productInfo">客服热线：400-890-9999 \n中邮保险广东分公司 \n运营管理部 荣誉出品  \n</string>
     <string name="copyright">Copyright © 2013 - 2014</string>
-    <string name="ver">Version: 2.2.8 (build20140423)</string>
-    <string name="suport">技术支持：Aming（6901028@qq.com）\n首席顾问：一婷</string>
+    <string name="ver">Version: 1.0.0 (build20140510)</string>
+    <string name="suport">技术支持：Aming（6901028@qq.com）\n首席顾问：王鹤</string>
 	<string name="searchLabel">查询</string>
 	<string name="limitError1">查询条件不符合产品设置</string>
-	<string name="updateServer">http://1.beming.sinaapp.com/android/zyrs/zyrs.json</string>
-	<string name="thanksStr">\n\u0020\u0020\u0020\u0020感谢以下同事的帮助：省分技术部，省分合规部，省分曹总，省分成总，省分朱晖总，省分阿一姑娘，省分黄嘉，省分高鹏，阳江赵勇，总部沈老师，总部赵培，总部威威老师，总部荻鸥老师，总部华强，总部白丽老师，四川文娟，河南刘伟，梅州王伟，阳江阿喜等</string>
+	<string name="updateServer">http://1.beming.sinaapp.com/android/zyrs/zybq.json</string>
+	<string name="thanksStr">\n\u0020\u0020\u0020\u0020感谢以下同事的帮助：省分王鹤</string>
 	<string name="updateTips">提醒：版本有更新，请点击菜单键选择更新</string>
 	<string name="logTips">更新日志：</string>
 	<string name="tdyb">查看填单样本影像件</string>

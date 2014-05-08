@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="about_title">
-        <item>介绍</item>
-        <item>填单</item>
-        <item>投保</item>
-        <item>限额</item>
-        <item>销售</item>
+    <string-array name="sub_title">
+        <item>条件</item>
+        <item>提交资料</item>
+        <item>操作规则</item>
+        <item>模板</item>
     </string-array>
 </resources>
