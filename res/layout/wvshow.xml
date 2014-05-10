@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+ 
+    <!-- 表格布局 -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:shrinkColumns="*"
+        android:padding="10dip" >
+        <!-- 表格布局：第一行 -->
+        <TableRow
+            android:id="@+id/tr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:background="@drawable/shape_top_corner_no_bottom_line"
+            android:padding="10dip" >
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:textSize="15sp">
+            </TextView>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr2"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:paddingLeft="10dip"
+            android:gravity="center"
+            android:background="@drawable/shape_no_corner_without_bottom" 
+            android:visibility="gone"
+            android:padding="10dip" >  
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:textSize="15sp">  
+            </TextView>  
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr3"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:paddingLeft="10dip"
+            android:gravity="center"
+            android:background="@drawable/shape_no_corner_without_bottom" 
+            android:visibility="gone"
+            android:padding="10dip" >  
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:textSize="15sp">  
+            </TextView>  
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr4"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:paddingLeft="10dip"
+            android:gravity="center"
+            android:background="@drawable/shape_no_corner_without_bottom" 
+            android:visibility="gone"
+            android:padding="10dip" >  
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:textSize="15sp">  
+            </TextView>  
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr5"
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:paddingLeft="10dip"
+            android:gravity="center"
+            android:background="@drawable/shape_no_corner_without_bottom" 
+            android:visibility="gone"
+            android:padding="10dip" >  
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:textSize="15sp">  
+            </TextView>  
+        </TableRow>
+        <!-- 表格布局：第三行 -->
+        <TableRow
+            android:id="@+id/tr6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:gravity="center"
+            android:background="@drawable/shape_bottom_corner_no_top_line"
+            android:padding="10dip" >
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:textSize="15sp">
+            </TextView>
+        </TableRow>
+    </TableLayout>
+ 
+</LinearLayout>

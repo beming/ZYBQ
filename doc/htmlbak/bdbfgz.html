@@ -1,0 +1,48 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/myfont.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body,td,th {
+	font-size: 16px;
+}
+input {  
+border: expression(this.type=="text"?"1px solid #04576f":"");  
+} 
+</style></link>
+<script language="javascript" type="text/javascript">
+	function mycount() {
+		var copies =  $("#copies").val();
+		var payTerm = $('input[name="payTerm"]:checked').val();
+		var brst;
+		var fjrst;
+		if(payTerm == 3) {
+			brst = copies * 1000 * 920 / 1000;
+			fjrst = copies * 1000 * 80 / 1000;
+		} else {
+			brst = copies * 1000 * 950 / 1000;
+			fjrst = copies * 1000 * 50 / 1000;
+		}
+		$("#brst")[0].value=brst;
+		$("#fj")[0].value=fjrst;
+		return true;
+	}
+</script>
+</head>
+<body>
+<table width="100%" border="0" align="center" cellpadding="2" cellspacing="1" bgcolor="#FF3300">
+  <tr>
+    <td width="19%" align="right" bgcolor="#FFFFFF">1、</td>
+    <td width="81" height="60" bgcolor="#FFFFFF">犹豫期撤单一般应由投保人亲自办理。</td>
+  </tr>
+  <tr>
+    <td align="right" bgcolor="#FFFFFF">2、</td>
+    <td height="60" bgcolor="#FFFFFF">若保险单遗失情况下申请犹豫期撤单，客户须填写<strong class="myred">《遗失责任声明书》</strong></td>
+  </tr>
+  <tr>
+    <td align="right" bgcolor="#FFFFFF">3、</td>
+    <td height="60" bgcolor="#FFFFFF"><strong class="myred">犹撤必须提供交费凭证，如遗失，须在申请书上备注&ldquo;首期交费凭证遗失，数据以系统为准&rdquo;</strong></td>
+  </tr>
+</table>
+</body>
+</html>

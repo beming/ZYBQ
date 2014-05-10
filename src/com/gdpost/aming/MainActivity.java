@@ -48,13 +48,28 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.main);
 		context = this.getApplicationContext();
 		
-		yc_cmd = (MyImageView) findViewById(R.id.yc_cmd);		
+		/*
+		 * ====================test
+		GridView gridview = (GridView) findViewById(R.id.main_gv);
+		//生成动态数组，并且转入数据
+        ArrayList<HashMap<String, Object>> lstImageItem = new ArrayList<HashMap<String, Object>>();
+        SimpleAdapter arrayAdapter = new SimpleAdapter(context, getItems(),// 数据来源
+				R.layout.mainitems,// 每一个user xml 相当ListView的一个组件
+				new String[] { "ItemImage", "ItemText"},
+				// 分别对应view 的id
+				new int[] { R.id.ItemImage, R.id.ItemText});
+        //添加并且显示
+        gridview.setAdapter(arrayAdapter);
+        //添加消息处理
+        gridview.setOnItemClickListener(new ItemClickListener());
+        */
+		yc_cmd = (MyImageView) findViewById(R.id.yc_cmd);
 		yc_cmd.setOnClickIntent(new MyImageView.OnViewClickListener() {
 			@Override
 			public void onViewClick(MyImageView view) {
 				// TODO Auto-generated method stub
 				//Toast.makeText(MainActivity.this, "事件触发", 1000).show();
-				System.out.println("1");
+				//System.out.println("1");
 				Intent myIntent = new Intent();
 				Bundle bundle = new Bundle();
 				bundle.putString("itemPosi", String.valueOf(1));
@@ -182,7 +197,37 @@ public class MainActivity extends Activity {
 				startActivity(myIntent);
 			}
 		});
+		
 	}
+	
+	/*
+	//当AdapterView被单击(触摸屏或者键盘)，则返回的Item单击事件
+    class  ItemClickListener implements OnItemClickListener
+    {
+		public void onItemClick(AdapterView<?> arg0,//The AdapterView where the click happened 
+				                          View arg1,//The view within the AdapterView that was clicked
+				                          int arg2,//The position of the view in the adapter
+				                          long arg3//The row id of the item that was clicked
+				                          ) {
+			//在本例中arg2=arg3
+			HashMap<String, Object> item=(HashMap<String, Object>) arg0.getItemAtPosition(arg2);
+			//显示所选Item的ItemText
+			setTitle((String)item.get("ItemText"));
+		}
+    	
+    }
+    
+    public ArrayList<HashMap<String, Object>> getItems() {
+		ArrayList<HashMap<String, Object>> items = new ArrayList<HashMap<String, Object>>();
+		for (int i=0; i<ContextDefine.itemsStr.length; i++) {
+			HashMap<String, Object> item = new HashMap<String, Object>();
+			item.put("ItemImage", ContextDefine.itemImgs[i]);
+			item.put("ItemText", ContextDefine.itemsStr[i]);
+			items.add(item);
+		}
+		return items;
+	}
+	*/
 	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

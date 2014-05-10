@@ -8,7 +8,7 @@
     <string name="copyright">Copyright © 2013 - 2014</string>
     <string name="ver">Version: 1.0.0 (build20140510)</string>
     <string name="suport">技术支持：Aming（6901028@qq.com）\n首席顾问：王鹤</string>
-	<string name="searchLabel">查询</string>
+	<string name="searchLabel">保全项目查询</string>
 	<string name="limitError1">查询条件不符合产品设置</string>
 	<string name="updateServer">http://1.beming.sinaapp.com/android/zyrs/zybq.json</string>
 	<string name="thanksStr">\n\u0020\u0020\u0020\u0020感谢以下同事的帮助：省分王鹤</string>
@@ -16,6 +16,17 @@
 	<string name="logTips">更新日志：</string>
 	<string name="tdyb">查看填单样本影像件</string>
 	<string name="yc">犹豫期期内撤单</string>
+	<string name="yctj1">申请人：投保人</string>
+	<string name="yctj2">（须在犹豫期内申请）</string>
+	<string name="yczl1">\u00201、《保险合同变更申请书》</string>
+	<string name="yczl2">\u00202、投保人身份证明文件原件</string>
+	<string name="yczl3">\u00203、保险合同原件</string>
+	<string name="yczl4">\u00204、首期保险费收据或发票</string>
+	<string name="yczl5">\u00205、资料交接凭证</string>
+	<string name="yczl6">\u00206、若委托他人办理，须提供委托人亲笔签名的《授权委托书》及受托人身份证明文件原件</string>
+	<string name="ycgz1">1、犹豫期撤单一般应由投保人亲自办理。</string>
+	<string name="ycgz2">2、若保险单遗失情况下申请犹豫期撤单，客户须填写《遗失责任声明书》\n</string>
+	<string name="ycgz3">3、犹撤必须提供交费凭证，如遗失，须在申请书上备注“首期交费凭证遗失，数据以系统为准”</string>
 	<string name="tb">退保</string>
 	<string name="zyjk">质押借款</string>
 	<string name="zyhk">质押还款</string>
