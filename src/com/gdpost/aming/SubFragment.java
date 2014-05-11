@@ -6,6 +6,10 @@ import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.text.Spannable;
+import android.text.SpannableStringBuilder;
+import android.text.style.ForegroundColorSpan;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -65,9 +69,16 @@ import android.widget.TextView;
 		wvShow.getSettings().setBuiltInZoomControls(true);
 		
 		if (title.equals(mTabTitles[0])) {// 条件
+			/*
+			 * =======================================
+			 * 下面部分为保全条件
+			 * =======================================
+			 */
 			switch (itemPosi) {
 			case 1:
 				contextView = inflater.inflate(R.layout.wvshow, container, false);
+				TextView featureName = (TextView) contextView.findViewById(R.id.theItemName);
+				featureName.setText(R.string.yc);
 				TextView tv1 = (TextView) contextView.findViewById(R.id.tv1);
 				tv1.setText(R.string.yctj1);
 				TextView tv6 = (TextView) contextView.findViewById(R.id.tv6);
@@ -155,10 +166,18 @@ import android.widget.TextView;
 				//search function 
 				break;
 			}
+			
 		} else if (title.equals(mTabTitles[1])) {// 资料
+			/*
+			 * =======================================
+			 * 下面部分为提交的资料
+			 * =======================================
+			 */
 			switch (itemPosi) {
 			case 1:
 				contextView = inflater.inflate(R.layout.wvshow, container, false);
+				TextView featureName = (TextView) contextView.findViewById(R.id.theItemName);
+				featureName.setText(R.string.yc);
 				TextView tv = (TextView) contextView.findViewById(R.id.tv1);
 				tv.setText(R.string.yczl1);
 				tv.setTextColor(Color.BLACK);
@@ -265,15 +284,47 @@ import android.widget.TextView;
 				//search function 
 				break;
 			}
-		} else if (title.equals(mTabTitles[2])) {// 产品简介
+			
+		} else if (title.equals(mTabTitles[2])) {// 规则
+			/*
+			 * =======================================
+			 * 下面部分为规则
+			 * =======================================
+			 */
 			switch (itemPosi) {
 			case 1:
+				contextView = inflater.inflate(R.layout.wvshow, container, false);
+				TextView featureName = (TextView) contextView.findViewById(R.id.theItemName);
+				featureName.setText(R.string.yc);
+				TextView tv = (TextView) contextView.findViewById(R.id.tv1);
+				tv.setText(R.string.ycgz1);
+				TableRow tr2 = (TableRow) contextView.findViewById(R.id.tr2);
+				tr2.setVisibility(View.VISIBLE);
+				TextView tv2 = (TextView) contextView.findViewById(R.id.tv2);
+				//最后字体变色
+				String str = getResources().getString(R.string.ycgz2);
+				Log.v("---SubFragment---gz", str);
+				SpannableStringBuilder mSpannableStringBuilder=new SpannableStringBuilder(str);   
+		        mSpannableStringBuilder.setSpan  
+		        (new ForegroundColorSpan(Color.RED), 24, 33, Spannable.SPAN_EXCLUSIVE_INCLUSIVE);       
+				tv2.setText(R.string.ycgz2);
+				tv2.setText(mSpannableStringBuilder);
+				TableRow tr3 = (TableRow) contextView.findViewById(R.id.tr3);
+				tr3.setVisibility(View.VISIBLE);
+				TextView tv3 = (TextView) contextView.findViewById(R.id.tv3);
+				tv3.setText(R.string.ycgz3);
+				tv3.setTextColor(Color.RED);
+				TextView tv6 = (TextView) contextView.findViewById(R.id.tv6);
+				tv6.setText(R.string.ycgz4);
+				
+		        /*
 				mTextView.setText(R.string.yc);
 				try {
 					wvShow.loadUrl("file:///android_asset/www/ycgz.html");
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
+				*/
 				break;
 			case 2:
 				mTextView.setText(R.string.tb);

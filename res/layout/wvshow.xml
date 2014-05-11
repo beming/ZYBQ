@@ -4,96 +4,119 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:orientation="vertical" >
- 
+ 	<TableLayout
+         android:id="@+id/tvlayout"
+         android:layout_width="fill_parent"    
+         android:layout_height="wrap_content" > 
+         <TableRow
+             android:gravity="center"> 
+         <ImageView    
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@drawable/zyrs"
+               android:id="@+id/pImg">    
+         </ImageView>
+         <TextView
+	        android:id="@+id/theItemName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+         </TableRow> 
+	</TableLayout>
     <!-- 表格布局 -->
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:stretchColumns="1"
-        android:shrinkColumns="*"
-        android:padding="10dip" >
+        android:gravity="center">
         <!-- 表格布局：第一行 -->
         <TableRow
             android:id="@+id/tr1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
             android:background="@drawable/shape_top_corner_no_bottom_line"
             android:padding="10dip" >
+	         <Button
+		        android:id="@+id/btnYX"
+		        android:layout_width="150dp"
+		        android:layout_height="wrap_content"
+		        android:text="@string/tdyb"
+		        android:visibility="gone"
+		        android:textAppearance="?android:attr/textAppearanceSmall" />
             <TextView
                 android:id="@+id/tv1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dip"
+                android:paddingRight="10dip"
                 android:textSize="15sp">
             </TextView>
         </TableRow>
         <TableRow
             android:id="@+id/tr2"
-            android:layout_width="wrap_content"  
-            android:layout_height="wrap_content"  
-            android:paddingLeft="10dip"
-            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dip"
             android:background="@drawable/shape_no_corner_without_bottom" 
             android:visibility="gone"
             android:padding="10dip" >  
             <TextView
                 android:id="@+id/tv2"
-                android:layout_width="wrap_content"  
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dip"
+                android:paddingRight="10dip"
                 android:textSize="15sp">  
             </TextView>  
         </TableRow>
         <TableRow
             android:id="@+id/tr3"
-            android:layout_width="wrap_content"  
-            android:layout_height="wrap_content"  
-            android:paddingLeft="10dip"
-            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dip"
             android:background="@drawable/shape_no_corner_without_bottom" 
             android:visibility="gone"
             android:padding="10dip" >  
             <TextView
                 android:id="@+id/tv3"
-                android:layout_width="wrap_content"  
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dip"
+                android:paddingRight="10dip"
                 android:textSize="15sp">  
             </TextView>  
         </TableRow>
         <TableRow
             android:id="@+id/tr4"
-            android:layout_width="wrap_content"  
-            android:layout_height="wrap_content"  
-            android:paddingLeft="10dip"
-            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dip"
             android:background="@drawable/shape_no_corner_without_bottom" 
             android:visibility="gone"
             android:padding="10dip" >  
             <TextView
                 android:id="@+id/tv4"
-                android:layout_width="wrap_content"  
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dip"
+                android:paddingRight="10dip"
                 android:textSize="15sp">  
             </TextView>  
         </TableRow>
         <TableRow
             android:id="@+id/tr5"
-            android:layout_width="wrap_content"  
-            android:layout_height="wrap_content"  
-            android:paddingLeft="10dip"
-            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dip"
             android:background="@drawable/shape_no_corner_without_bottom" 
             android:visibility="gone"
             android:padding="10dip" >  
             <TextView
                 android:id="@+id/tv5"
-                android:layout_width="wrap_content"  
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dip"
+                android:paddingRight="10dip"
                 android:textSize="15sp">  
             </TextView>  
         </TableRow>
@@ -102,8 +125,7 @@
             android:id="@+id/tr6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="10dip"
-            android:gravity="center"
+            android:paddingRight="10dip"
             android:background="@drawable/shape_bottom_corner_no_top_line"
             android:padding="10dip" >
             <TextView
@@ -111,6 +133,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dip"
+                android:paddingRight="10dip"
                 android:textSize="15sp">
             </TextView>
         </TableRow>

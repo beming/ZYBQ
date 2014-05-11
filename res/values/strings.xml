@@ -25,8 +25,9 @@
 	<string name="yczl5">\u00205、资料交接凭证</string>
 	<string name="yczl6">\u00206、若委托他人办理，须提供委托人亲笔签名的《授权委托书》及受托人身份证明文件原件</string>
 	<string name="ycgz1">1、犹豫期撤单一般应由投保人亲自办理。</string>
-	<string name="ycgz2">2、若保险单遗失情况下申请犹豫期撤单，客户须填写《遗失责任声明书》\n</string>
+	<string name="ycgz2">2、若保险单遗失情况下申请犹豫期撤单，客户须填写《遗失责任声明书》</string>
 	<string name="ycgz3">3、犹撤必须提供交费凭证，如遗失，须在申请书上备注“首期交费凭证遗失，数据以系统为准”</string>
+	<string name="ycgz4">备注：系统客户申请日期为网点章戳日期</string>
 	<string name="tb">退保</string>
 	<string name="zyjk">质押借款</string>
 	<string name="zyhk">质押还款</string>
