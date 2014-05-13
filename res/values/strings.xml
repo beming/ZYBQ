@@ -18,6 +18,10 @@
 	<string name="yc">犹豫期期内撤单</string>
 	<string name="yctj1">申请人：投保人</string>
 	<string name="yctj2">（须在犹豫期内申请）</string>
+	<string name="tbtj2">（须过犹豫期后申请）</string>
+	<string name="sjclqtj1">申请人：生存保险金受益人</string>
+	<string name="sjclqtj2">（若未指定生存受益人，则为被保险人)</string>
+	<string name="sjclqtj3">保险合同满期日或约定生存保险金给付日起</string>
 	<string name="yczl1">\u00201、《保险合同变更申请书》</string>
 	<string name="yczl2">\u00202、投保人身份证明文件原件</string>
 	<string name="yczl3">\u00203、保险合同原件</string>
@@ -28,6 +32,14 @@
 	<string name="ycgz2">2、若保险单遗失情况下申请犹豫期撤单，客户须填写《遗失责任声明书》</string>
 	<string name="ycgz3">3、犹撤必须提供交费凭证，如遗失，须在申请书上备注“首期交费凭证遗失，数据以系统为准”</string>
 	<string name="ycgz4">备注：系统客户申请日期为网点章戳日期</string>
+	<string name="tbgz1">1、退保一般应由投保人亲自办理。</string>
+	<string name="tbgz2">2、若保险单遗失情况下申请退保，客户须填写《遗失责任声明书》</string>
+	<string name="zyjktj1">借款申请人：投保人</string>
+	<string name="zyjktj2">\u0020（须经被保险人签名同意）</string>
+	<string name="zyjktj3">\u0020※ 借款申请时间</string>
+	<string name="zyjktj4">\u00201、保险合同有效期内，且具有现金价值</string>
+	<string name="zyjktj5">\u00202、趸交保单生效以后；但期交保单须成功交纳第二期保费后</string>
+	<string name="zyjktj6">\u00203、借款到期日需在保险期间届满前2个月</string>
 	<string name="tb">退保</string>
 	<string name="zyjk">质押借款</string>
 	<string name="zyhk">质押还款</string>

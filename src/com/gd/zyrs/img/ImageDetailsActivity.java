@@ -34,7 +34,7 @@ public class ImageDetailsActivity extends Activity {
 		setContentView(R.layout.image_details);
 		zoomImageView = (ZoomImageView) findViewById(R.id.zoom_image_view);
 		// 取出图片路径，并解析成Bitmap对象，然后在ZoomImageView中显示
-		String prodPosi = getIntent().getStringExtra("productPosi");
+		String prodPosi = getIntent().getStringExtra("ItemPosi");
 		int posi = Integer.valueOf(prodPosi);
 		try {
 			bitmap = BitmapFactory.decodeStream( getResources().getAssets().open(Images.imageUrls[posi]));
